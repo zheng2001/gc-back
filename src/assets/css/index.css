@@ -1,0 +1,48 @@
+.header{
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    margin-bottom: 2px;
+    display: flex;
+}
+.header_left{
+    width: 300px;
+}
+.header_left img{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.header_left span{
+    margin-left: 25px;
+    font-size: 24px;
+}
+.header_right{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+.header_right span{
+    cursor: pointer;
+}
+.header_right logout{
+    width: 50px;
+    text-align: center;
+}
+.aside_main{
+    display: flex;
+}
+.aside{
+    width: 200px;
+    min-height: calc(100vh - 62px);
+    overflow: hidden;
+    margin-right: 2px;
+    background-color: white;
+}
+.main{
+    flex: 1;
+    width: 0;
+    background-color: white;
+    padding: 10px;
+}
